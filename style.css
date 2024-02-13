@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+ @import url(https://fonts.googleapis.com/css?family=Poiret+One);
  body {
 	 background-color: #f1afaf;
 	 /* font-family: 'Poiret One', Segoe UI Light, cursive; */
@@ -253,3 +253,12 @@ h1{
     bottom: 80px;
     right: 50px;
 }
+audio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff; /* Optional: Set a background color */
+    padding: 10px; /* Optional: Add padding to the play button */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+}
+ 
