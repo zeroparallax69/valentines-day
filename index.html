@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Dovey><</title>
     <link rel="stylesheet" href="style.css">
+	<style>
+        audio {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #fff; /* Optional: Set a background color */
+            padding: 10px; /* Optional: Add padding to the play button */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+        }
+    </style>
 </head>
 <body>  
     <div id="card">
@@ -37,6 +47,9 @@
 	<img class="corner-image" id="top-right" style="transform: rotate(45deg) rotate(15deg);" src="hearts.png" alt="Image 2">
 	<img class="corner-image" id="bottom-left" style="transform: rotate(45deg) rotate(1deg); width: 300px; height: 300px;" src="cs2.png" alt="Image 3">
 	<img class="corner-image" id="bottom-right" style="transform: rotate(45deg) rotate(-48deg); width: 300px; height: 200px;" src="it2.png" alt="Image 4">
-	
+	<audio controls loop autoplay>
+        <source src="mine.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
   </body>
 </html>
